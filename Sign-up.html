@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <title>Sign-up</title>
+  </head>
+  <body>
+
+   <div class=" container bg-image col-sm-12" > 
+    <img src="image/daniel-leone-g30P1zcOzXo-unsplash.jpg">
+<div class="row">
+    <div class="login-box col-sm-6">
+        <form class="form" id="form"    >
+            <label class="first-label-1"> SIGN UP </label>
+            <div class="sign-box ">
+                <input class="signup" type="text" name="name" id="name" placeholder="Name " autofocus required>
+                <input class="signup" type="text" name="Surname" id="Surname" placeholder="Surname "  required>
+                <input class="signup" type="email" name="mail" id="mail" placeholder="Mail "  required>
+                <input class="signup" id="password"  type="password" name="password" placeholder="Password" required >
+                <span><i toggle="#password-field"  id="eye"
+                  class= "fa-solid fa-eye-slash " onclick="myFunction()" style="cursor: pointer;"></i></span>
+             
+            </div>
+          
+            <button class="btn" id="btn" onclick="submitbtn()"   type="submit"> <a href="#"> Sign up </a></button>
+            <button class="btn" id="btn" type="submit"  > <a href="Sign-in.html">Sign in</a></button>
+            
+         
+        </form>
+       </div>
+    </div>
+    <!----<div class="alert kapalı alert-box alert-not" id="alertmsj">
+      
+      <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+      <i style='font-size:24px' class='fas'>&#xf071;</i>
+      <p id=alertmesaj" ></p>
+    </div>--->
+
+    <div >
+      <div class="row">
+        
+          <div class="col-md-4">
+              <div id="alertmsj" class="alert  alert-box kapalı">
+                  
+                  <span class="glyphicon glyphicon-certificate"></span>
+                  
+                  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                  <i style='font-size:24px' class='fas'>&#xf071;</i> &nbsp; &nbsp;  
+
+                  <strong id="alertmesaj">  </strong>
+                </div> 
+                </div>
+
+
+    </div>
+     
+
+ </div>
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="Sign-up.js"></script>
+   
+  </body>
+</html>

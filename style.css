@@ -1,0 +1,236 @@
+:root {
+    --blue: #07233393;
+    --white: #ffffff; 
+    --brownLabel: #1b1d1dea;
+    --labelffcolor:#fff;
+  }
+
+body
+{
+height: 100%;
+}
+
+.login-box
+{   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom:20%;left:0; right:0; top:20%;
+    margin:auto;
+    background-image: linear-gradient(-225deg, #05273b8e 50%, #2f707475 50%);
+    height: 500px;
+    width: 400px;
+    box-shadow: 0 15px 20px rgba(4, 27, 31, 0.692);
+    border-radius: 3%;
+    position: absolute;  
+}
+  
+img 
+{ 
+    display: flex;
+    justify-content: center;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    width:100%;
+    height: 100%;
+    align-items: center;
+    float: left;
+    z-index: -2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.first-label
+{
+    margin-bottom: 90px;
+    margin-left: 130px;
+    margin-top: 2%;
+    margin-right: auto;
+    font-size: x-large;
+    color:var(--brownLabel);
+    font-family: 'Pacifico', cursive;
+   
+    
+}
+.first-label-1
+{
+    margin-bottom: 90px;
+    margin-top: 10%;
+    margin-left: 130px;
+    margin-right: auto;
+    font-size: x-large;
+    color:  var(--brownLabel);
+    font-family: 'Pacifico', cursive;
+}
+
+.user-box .login-box
+{
+    width: 100%;
+    color: var(--labelffcolor);
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid black;
+
+}
+.container
+{
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+    height: 650px;
+    align-items: center;
+    padding-bottom: -50px; 
+    padding-top: -50px;  
+}
+.user-box
+{
+    margin-bottom: 50px;
+    padding: 3px;
+}
+
+.signup
+{
+    margin-bottom: 10px;
+}
+
+.signin
+{
+    margin-bottom: 10%;
+    margin-left: 5%
+}
+.sign-box
+{
+    padding: 3px;
+    margin-bottom: 50px;
+    margin-top: -7px;
+    margin-left: 20px;
+    
+} 
+
+.forgtpswrd
+{
+    float: left;
+    color: var(--brownLabel);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: -30px;
+}
+
+label
+{
+    font-size: 16px;
+    color: var(--labelffcolor);
+    pointer-events: none;
+
+}
+
+
+
+.btn,.btn-up
+{
+    background-color: #0367a6;
+    background-image: linear-gradient(90deg,#061d2b 20%,#429191f8 74%);
+    border-radius: 20px;
+    border: 1px solid #0b1216;
+    color: var(--white);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    width: 140px;
+    margin-left: 25px;
+    margin-top: -5px;
+    
+}
+
+.btn-up
+{
+    padding: 6px 12px;
+    margin-right: 8%;
+    height: 33.19px;
+}
+
+a:link {
+    color: rgb(56, 59, 56);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+input 
+{
+    display: inline-block;
+    background-color: rgba(188, 207, 219, 0.829);
+    font:color#333;
+    border: none;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    padding-left: 3%
+}
+
+/*.alert {
+    padding: 20px;
+    color: white;
+    
+  }*/
+
+  .kapalı
+  {
+    display: none;
+  }
+    
+  .acık
+  {
+      display:block;
+  }
+  .alert-box
+  { 
+      
+    position: absolute;  
+     width: 390px;
+     height: 80px;
+     float: right; 
+    justify-content: center;
+    align-items: center;
+    bottom:20%;left:65%; right:20px; top:0%;
+    margin:auto;
+    background-image: linear-gradient(-230deg, #05273b65 50%, #2f717456 50%);
+    transition:  cubic-bezier(0.075, 0.82, 0.165, 1)3s;
+    box-shadow:5px 10px #0b1216;
+    color: var(--white);
+    
+  }
+  
+  #alertmesaj
+  {
+    
+      position: relative;
+      overflow: hidden;
+      color: var(--white); 
+  }
+
+  .closebtn {
+    margin-left: 15px;
+    color: var(--white);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }
